@@ -40,7 +40,7 @@ Experimental results on seven benchmark datasets demonstrate the effectiveness o
 
 ## 🧭 Framework Overview
 <p align="center">
-<img src="./images/overview.pdf" width="90%">
+<img src="./images/overview.png" width="90%">
 </p>
 
 ---
