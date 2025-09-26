@@ -21,7 +21,7 @@ Stay tuned ⭐ for updates!
 
 ---
 
-## 📃 Abstract
+## Abstract
 Reinforcement learning (RL) has proven highly effective in eliciting the reasoning capabilities of large language models (LLMs). Inspired by this success, recent studies have explored applying similar techniques to vision-language models (VLMs), aiming to enhance their reasoning performance.  
 
 However, directly transplanting RL methods from LLMs to VLMs is suboptimal, as the tasks faced by VLMs are inherently more complex. Specifically, VLMs must first accurately perceive and understand visual inputs before reasoning can be effectively performed.  
@@ -38,14 +38,14 @@ Experimental results on seven benchmark datasets demonstrate the effectiveness o
 
 ---
 
-## 🧭 Framework Overview
+## Framework Overview
 <p align="center">
-<img src="./images/overview.png" width="90%">
+<img src="./images/overview.png" width="100%">
 </p>
 
 ---
 
-## 🖊 Citation
+## Citation
 If you find **PeBR-R1** useful for your research, please consider citing our work:  
 
 ```bibtex
