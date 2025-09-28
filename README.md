@@ -13,8 +13,9 @@
 ---
 
 ## 🔥 News
-- **`September 28, 2025.`** We have released the **PeBR-R1 model weights** and the **PeBR-R1 dataset** on Hugging Face.  
-- **`September 16, 2025.`** Our paper was released on [arXiv](https://arxiv.org/pdf/2509.13031).  
+- **`September 28, 2025.`** We have released the [**PeBR-R1 model weights**](https://huggingface.co/cythu/PeBR_R1) and the [**PeBR-R1 dataset**](https://huggingface.co/datasets/cythu/PeBR_R1_dataset) on Hugging Face.  
+- **`September 16, 2025.`** Our paper was released on [arXiv](https://arxiv.org/pdf/2509.13031).
+- 🚀 **Coming Next:** We will release the **training code** and **evaluation code** to support full reproducibility.
 
 Stay tuned ⭐ for training & inference code release!
 
