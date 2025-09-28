@@ -4,20 +4,19 @@
 
 [Yan Chen](https://github.com/cythu/PeBR-R1), [Long Li](), [Teng Xi](https://scholar.google.com/citations?hl=zh-CN&user=PN0GRKQAAAAJ&view_op=list_works&sortby=pubdate), [Long Zeng](https://jackyzengl.github.io/)✉, [Jingdong Wang](https://scholar.google.com/citations?hl=zh-CN&user=z5SPCmgAAAAJ) <br/>
 
-[**`arXiv`**](https://arxiv.org/pdf/2509.13031)
+<a href='https://arxiv.org/pdf/2509.13031'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
+<a href='https://huggingface.co/cythu/PeBR_R1'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue'></a>
+<a href='https://huggingface.co/datasets/cythu/PeBR_R1_dataset'><img src='https://img.shields.io/badge/Dataset-Huggingface-yellow'></a>
 
 </div>
 
 ---
 
 ## 🔥 News
-- **`September 16, 2025.`** Our paper is released on [arXiv](https://arxiv.org/pdf/2509.13031).  
-- **`Coming Soon.`** We will release:
-  - **SFT dataset** and **RL dataset**  
-  - **PeBR-R1 model weights**  
-  - **Training & inference code**  
+- **`September 28, 2025.`** We have released the **PeBR-R1 model weights** and the **PeBR-R1 dataset** on Hugging Face.  
+- **`September 16, 2025.`** Our paper was released on [arXiv](https://arxiv.org/pdf/2509.13031).  
 
-Stay tuned ⭐ for updates!
+Stay tuned ⭐ for training & inference code release!
 
 ---
 
