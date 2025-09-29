@@ -98,7 +98,7 @@ Example entry:
   }
 ```
 4.Training configuration
-Use the config file provided in ./docs/qwen2_5vl_full_sft.yaml.
+Use the config file provided in `./docs/qwen2_5vl_full_sft.yaml`.
 
 ### Reinforcement Learning (RL) Phase
 #### Dataset Preparation
