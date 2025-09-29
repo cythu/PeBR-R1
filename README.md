@@ -2,24 +2,21 @@
 
 # Perception Before Reasoning: Two-Stage Reinforcement Learning for Visual Reasoning in Vision-Language Models
 
-[Yan Chen](https://github.com/cythu/PeBR-R1)<sup>1</sup>,  
-[Long Li]()<sup>2</sup>,  
-[Teng Xi](https://scholar.google.com/citations?hl=zh-CN&user=PN0GRKQAAAAJ&view_op=list_works&sortby=pubdate)<sup>2</sup>,  
-[Long Zeng](https://jackyzengl.github.io/)<sup>1✉️</sup>,  
+[Yan Chen](https://github.com/cythu/PeBR-R1)<sup>1</sup>, 
+[Long Li]()<sup>2</sup>, 
+[Teng Xi](https://scholar.google.com/citations?hl=zh-CN&user=PN0GRKQAAAAJ&view_op=list_works&sortby=pubdate)<sup>2</sup>, 
+[Long Zeng](https://jackyzengl.github.io/)<sup>1✉️</sup>, 
 [Jingdong Wang](https://scholar.google.com/citations?hl=zh-CN&user=z5SPCmgAAAAJ)<sup>2</sup>  
-
-<a href='https://arxiv.org/pdf/2509.13031'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
-<a href='https://huggingface.co/cythu/PeBR_R1'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue'></a>
-<a href='https://huggingface.co/datasets/cythu/PeBR_R1_dataset'><img src='https://img.shields.io/badge/Dataset-Huggingface-yellow'></a>
 
 <br/>
 
-<sup>1</sup>[Tsinghua University](https://www.tsinghua.edu.cn/en/)  
+<sup>1</sup>[Tsinghua University](https://www.tsinghua.edu.cn/en/), 
 <sup>2</sup>[Baidu](https://vis.baidu.com/#/)
 
 <sup>✉️</sup>Corresponding Author
 
 </div>
+
 
 ---
 
