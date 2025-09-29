@@ -43,18 +43,18 @@ Experimental results on seven benchmark datasets demonstrate the effectiveness o
 <p align="center">
 <img src="./docs/overview.png" width="90%">
 </p>
----
 
 ## Training
 
 ### Environment Setup
+```bash
 conda create -n pebrr1 python==3.10
 conda activate pebrr1
 git clone https://github.com/cythu/PeBR-R1.git
 cd PeBR-R1
 pip install -r environment.txt
 pip install -e .
-
+```
 
 ### Warm-Up Phase
 To prepare the dataset for SFT warm-up:
