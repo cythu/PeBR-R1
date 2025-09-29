@@ -93,9 +93,10 @@ Example entry:
 Use the config file provided in ./docs/qwen2_5vl_full_sft.yaml.
 
 ### Reinforcement Learning (RL) Phase
-Download the [GRPO dataset](https://huggingface.co/datasets/cythu/PeBR_R1_dataset)
-Image path: ./dataset/grpo/pebr_grpo_images
-JSON file path: ./dataset/grpo/pebr_grpo_dataset.json
+#### Dataset Preparation
+Download the [GRPO dataset](https://huggingface.co/datasets/cythu/PeBR_R1_dataset) and place the files into the following locations:  
+- Images → `./dataset/grpo/pebr_grpo_images`  
+- JSON file → `./dataset/grpo/pebr_grpo_dataset.json`
 
 #### Dataset Sampling
 1. Run the sampling script to generate rollout data—each question produces 8 outputs:
