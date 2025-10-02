@@ -70,7 +70,7 @@ To prepare the dataset for SFT warm-up:
 Get the [Mulberry-SFT dataset](https://huggingface.co/datasets/HuanjinYao/Mulberry-SFT)
 Run the filtering script to remove reflective reasoning samples and any images with width or height smaller than 28 pixels:
 ```bash
-python dataset/filter.py --input dataset/mulberry_sft.json --output dataset/pebr_sft.json
+python dataset/filter.py --input dataset/mulberry_sft.json --output dataset/pebr_sft.json --image_root dataset/mulberry_images
 ```
 
 2. Merge with PeBR-R1 SFT data
