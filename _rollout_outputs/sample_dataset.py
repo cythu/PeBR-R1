@@ -2,13 +2,13 @@ import json
 from collections import defaultdict
 import os
 
-# ==== 路径 ====
-dataset_path = "./dataset/pebr_grpo_dataset.json"
-result_path = "./_rollout_outputs/rollout_results.jsonl"
+# ==== Paths ====
+dataset_path = "../dataset/pebr_grpo_dataset.json"
+result_path = "./rollout_results.jsonl"
 
-# ==== 保存 JSON 文件的方法 ====
+# ==== Save JSON file ====
 def save_json(data_list, filename):
-    # 找到 dataset_path 的目录
+    # Find the directory of dataset_path
     out_dir = os.path.dirname(os.path.abspath(dataset_path))
     os.makedirs(out_dir, exist_ok=True)
     out_file = os.path.join(out_dir, filename)
@@ -17,7 +17,7 @@ def save_json(data_list, filename):
         json.dump(data_list, f, ensure_ascii=False, indent=2)
     print(f"✅ Saved {out_file} with {len(data_list)} samples.")
 
-# ==== 第一步：分类 qid ====
+# ==== Step 1: Categorize qids ====
 qid_to_accs = defaultdict(list)
 
 with open(result_path, "r") as f:
@@ -49,19 +49,19 @@ print("📊 Case Statistics:")
 print(f"Easy cases:   {len(easy_qids)}")
 print(f"Medium cases: {len(medium_qids)}")
 print(f"Hard cases:   {len(hard_qids)}")
-print(f"Total qid:    {len(qid_to_accs)}")
+print(f"Total qids:   {len(qid_to_accs)}")
 
-# ==== 第二步：加载原始 JSON 并筛选 ====
+# ==== Step 2: Load original JSON and filter ====
 print("📥 Loading original JSON...")
 with open(dataset_path, "r", encoding="utf-8") as f:
     all_data = json.load(f)
 
-# 根据 qid 分类
+# Filter data by qid categories
 easy_data = [sample for sample in all_data if sample.get("qid") in easy_qids]
 medium_data = [sample for sample in all_data if sample.get("qid") in medium_qids]
 hard_data = [sample for sample in all_data if sample.get("qid") in hard_qids]
 
-# ==== 第三步：保存为 JSON 文件 ====
+# ==== Step 3: Save categorized JSON files ====
 print("💾 Saving JSON files...")
 save_json(easy_data, "easycase.json")
 save_json(medium_data, "mediumcase.json")
