@@ -2,7 +2,7 @@
 
 # Perception Before Reasoning: Two-Stage Reinforcement Learning for Visual Reasoning in Vision-Language Models
 
-[Yan Chen](https://github.com/cythu/PeBR-R1)<sup>1</sup>, 
+[Yan Chen](https://github.com/cythu)<sup>1</sup>, 
 [Long Li]()<sup>2</sup>, 
 [Teng Xi](https://scholar.google.com/citations?hl=zh-CN&user=PN0GRKQAAAAJ&view_op=list_works&sortby=pubdate)<sup>2</sup>, 
 [Long Zeng](https://jackyzengl.github.io/)<sup>1✉️</sup>, 
