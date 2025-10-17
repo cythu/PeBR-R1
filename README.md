@@ -140,7 +140,14 @@ python scripts/model_merger.py --local_dir checkpoints/easy_r1/stage2_rl/global_
 ```
 
 ---
+## Inference
+After downloading the model from [Hugging Face](https://huggingface.co/cythu/PeBR_R1),  you can run inference with the following command:
+```bash
+python inference.py
+```
+Example inputs (image and question) can be customized inside `inference.py`.
 
+---
 ## Acknowledgements
 
 - **[LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)**: We use this framework for SFT warm-up training.  
