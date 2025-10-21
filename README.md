@@ -2,6 +2,12 @@
 
 # Perception Before Reasoning: Two-Stage Reinforcement Learning for Visual Reasoning in Vision-Language Models
 
+<a href="https://arxiv.org/abs/2509.13031"><img src="https://img.shields.io/badge/arXiv-2509.13031-b31b1b.svg"></a>
+<a href="https://huggingface.co/cythu/PeBR_R1"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Model-yellow"></a>
+<a href="https://huggingface.co/datasets/cythu/PeBR_R1_dataset"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Dataset-orange"></a>
+
+<br/>
+
 [Yan Chen](https://github.com/cythu)<sup>1</sup>, 
 [Long Li]()<sup>2</sup>, 
 [Teng Xi](https://scholar.google.com/citations?hl=zh-CN&user=PN0GRKQAAAAJ&view_op=list_works&sortby=pubdate)<sup>2</sup>, 
