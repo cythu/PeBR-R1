@@ -3,7 +3,7 @@ from collections import defaultdict
 import os
 
 # ==== Paths ====
-dataset_path = "../dataset/pebr_grpo_dataset.json"
+dataset_path = "../dataset/grpo/pebr_grpo_dataset.json"
 result_path = "./rollout_results.jsonl"
 
 # ==== Save JSON file ====
