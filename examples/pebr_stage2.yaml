@@ -82,7 +82,7 @@ worker:
     reward_function: ./examples/reward_function/pebr_2.py:compute_score
 
 trainer:
-  total_epochs: 1
+  total_epochs: 2
   max_steps: null
   project_name: easy_r1
   experiment_name: qwen2_5_7b_math_grpo
